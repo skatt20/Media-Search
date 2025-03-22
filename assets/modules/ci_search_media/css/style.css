@@ -1,0 +1,18 @@
+#searchResults {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+#searchResults .col-md-4 {
+    flex: 1 1 300px; /* Allows flexibility in width */
+    max-width: 300px;
+}
+
+#searchResults img, 
+#searchResults video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
